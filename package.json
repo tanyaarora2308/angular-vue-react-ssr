@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "single-spa-react": "^4.6.1",
     "vue-router": "^4.1.0"
   }
 }

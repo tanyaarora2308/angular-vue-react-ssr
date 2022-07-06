@@ -7,4 +7,4 @@
   }
 </style>
 
-<section> Homepage Application</section>
+<section>Homepage</section>

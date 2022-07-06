@@ -25,9 +25,9 @@ export default function Root(props) {
   }, []);
 
   return (
-    <div style={{textAlign:"center"}}>
+    <div >
       <br/>
-      <h1>Server Side Rendering React</h1>
+      <h1 style={{textAlign:"center"}}>Server Side Rendering React</h1>
       {error && (
         <div>{`There is a problem fetching the post data - ${error}`}</div>
       )}
@@ -39,7 +39,6 @@ export default function Root(props) {
             </li>
           ))}
       </ol>
-      {/* Hello */}
     </div>
   );
 }
